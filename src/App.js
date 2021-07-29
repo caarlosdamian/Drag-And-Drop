@@ -1,10 +1,14 @@
-import './App.css';
-
+import "./App.css";
+import { DndProvider } from "react-dnd";
+import { HTML5Backend } from "react-dnd-html5-backend";
+import DragDrop from "./components/DragDrop";
 function App() {
   return (
-    <div className="App">
-<></>
-    </div>
+    <DndProvider backend={HTML5Backend}>
+      <div className="App">
+        <DragDrop />
+      </div>
+    </DndProvider>
   );
 }
 
