@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Drag and Drop 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was to try rge react-dnd drag and drop fuction 
 
 ## Available Scripts
 
